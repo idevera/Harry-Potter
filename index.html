@@ -1,0 +1,66 @@
+!<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Harry Potter</title>
+</head>
+<body>
+  <div class="container">
+    <h1> Which Harry Potter character are you?</h1>
+    <form id="quiz">
+      <!--Select Boxes-->
+      <p> Which house do you like best?</p>
+      <select class="form-control" id="house">
+        <option value ="rc">Raven Claw</option>
+        <option value ="hp">Huffle Puff</option>
+        <option value ="gr">Gryffindor</option>
+        <option value ="sl">Slytherine</option>
+      </select>
+      <!--Input value-->
+      <div class="form-group">
+        <label for="age">What is your age?</label>
+        <input id="age" class="form-control" type="text">
+      </div>
+      <!--Radio button-->
+      <p>What color hair do you have?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="hair" value="blonde" checked>
+          Blonde
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="hair" value="brown">
+          Brown
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="hair" value="red">
+          Red
+        </label>
+      </div>
+
+      <button type="submit" class="btn">Who am I?</button>
+    </form>
+
+      <!--Output-->
+
+      <h3>You are most like:</h3>
+      <div id="harry">Harry</div>
+      <div id="draco">Draco</div>
+      <div id="hermione">Hermione</div>
+      <div id="ron">Ron</div>
+
+
+
+
+
+
+  </div>
+</body>
+</html>
